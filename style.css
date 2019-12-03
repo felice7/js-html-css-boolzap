@@ -1,0 +1,138 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D7DBD6;
+    font-family: 'Sulphur Point', sans-serif;
+
+}
+
+.parte-alta {
+    background-color: #2ecc71;
+    height: 80px;
+    position: relative;
+    display: flex;
+    
+    
+}
+
+.container {
+    background-color: #bdc3c7;
+    width: 1200px;
+    margin: 0 auto;
+    height: 900px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.barra-superiore {
+    height: 70px;
+    width: 1200px;
+}
+
+.parte-left {
+    background-color: #81ecec;
+    float: left;
+    width: 30%;
+    height: 70px;
+    overflow: hidden;
+
+}  
+
+.avatar {
+    height: 80%;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+    
+    
+}  
+
+.parte-right {
+    background-color: #81ecec;
+    float: right;
+    width: 70%;
+    height: 70px;
+}
+
+.parte-laterale {
+    background-color: #fff;
+    width: 30%;
+    height: 830px;
+    position: absolute;
+    
+}
+
+
+
+.area-notifica {
+    background-color: #00a8ff;
+    height: 80px;
+    
+}
+
+
+
+
+.utenti {
+    background-color: #f5f6fa;
+    height: 80px;
+    overflow: hidden;
+}
+
+.avatars {
+    height: 80%;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+.utenti .testo {
+    right: auto;
+    
+}
+
+
+.parte-centrale{
+    background-color: #F8F9FA;
+    width: 70%;
+    height: 830px;
+    float: right;
+}
+
+
+.messaggi.inviati {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    clear: both;
+    
+}
+
+.messaggi.ricevuti {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    float: right;
+    clear: both;
+    
+}
+
+
+.campo-input {
+    background-color: lightgreen;
+    height: 80px;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.template {
+    display: none;
+}
